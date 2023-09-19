@@ -1,0 +1,144 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/spdlog-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 297,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 306,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 327,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 336,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "spdlog",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "cmake-build-debug/_deps/spdlog-src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "spdlog",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/spdlog-build/libspdlogd.a"
+			],
+			"targetId" : "spdlog::@eb35cfce7893ccfeff1e",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "spdlog",
+			"destination" : "include/spdlog/fmt/bundled/",
+			"paths" : 
+			[
+				{
+					"from" : "cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "spdlog",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/spdlog.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "spdlog",
+			"destination" : "lib/cmake/spdlog",
+			"exportName" : "spdlog",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"index" : 32
+				},
+				{
+					"id" : "spdlog_header_only::@eb35cfce7893ccfeff1e",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/spdlog-build/CMakeFiles/Export/5b93ed3f55f9d470264c31a33fb13826/spdlogConfigTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "spdlog",
+			"destination" : "lib/cmake/spdlog",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/spdlog-build/spdlogConfig.cmake",
+				"cmake-build-debug/_deps/spdlog-build/spdlogConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/spdlog-build",
+		"source" : "cmake-build-debug/_deps/spdlog-src"
+	}
+}

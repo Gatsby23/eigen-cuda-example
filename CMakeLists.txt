@@ -104,6 +104,8 @@ target_compile_features(eigen_cuda_example PUBLIC cxx_std_17)
 
 include(CheckLanguage)
 check_language(CUDA)
+find_package(CUDA REQUIRED)
+set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)
 if(CMAKE_CUDA_COMPILER)
   enable_language(CUDA)
 else()

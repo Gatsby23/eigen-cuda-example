@@ -54,6 +54,8 @@ bin*
 .idea/
 *.code-workspace
 *.vscode
+cmake-build-debug
+cmake-build-debug/*
 
 ## Project
 src/config.hpp

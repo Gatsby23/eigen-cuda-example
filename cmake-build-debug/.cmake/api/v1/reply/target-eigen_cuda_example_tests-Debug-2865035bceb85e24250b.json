@@ -1,0 +1,585 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests/eigen_cuda_example_tests"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"eigen_cuda_example_target_link_system_libraries",
+			"set_property",
+			"find_package",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"tests/CMakeLists.txt",
+			"cmake/eigen_cuda_example/eigen_cuda_example_target_link_system_libraries.cmake",
+			"CMakeLists.txt",
+			"/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindThreads.cmake",
+			"cmake-build-debug/_deps/spdlog-src/CMakeLists.txt",
+			"cmake-build-debug/_deps/catch2-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 142,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 238,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 392,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-long-long"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wmissing-format-attribute"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=nonnull"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=init-self"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=main"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=missing-braces"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=sequence-point"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=trigraphs"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Warray-bounds"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=write-strings"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=address"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=int-to-pointer-cast"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wunused-but-set-variable"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-old-style-cast"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wsign-promo"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstack-protector"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-aliasing"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-aliasing=2"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wswitch"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wswitch-unreachable"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wdisabled-optimization"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Winvalid-pch"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpacked"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-overflow"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-overflow=2"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wdelete-non-virtual-dtor"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=non-virtual-dtor"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=delete-non-virtual-dtor"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fdelete-null-pointer-checks"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wmisleading-indentation"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fno-optimize-sibling-calls"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-pedantic"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-redundant-decls"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "CATCH_CONFIG_ENABLE_BENCHMARKING"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EIGEN_DEFAULT_DENSE_INDEX_TYPE=int"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "TEST_DATA_DIR_CSTR=\"/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/tests/data/\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/tests/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/_deps/catch2-src/src/catch2/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/_deps/catch2-build/generated-includes"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/_deps/eigen-src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/cuda/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "eigen_cuda_example::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Catch2::@fa92aa50e9bf5e1a7206"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Catch2WithMain::@fa92aa50e9bf5e1a7206"
+		}
+	],
+	"id" : "eigen_cuda_example_tests::@a44f0ac069e85531cdee",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/usr/local/cuda/targets/x86_64-linux/lib/stubs",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-L/usr/local/cuda/targets/x86_64-linux/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/cuda-11.6/targets/x86_64-linux/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libeigen_cuda_example.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/cuda-11.6/targets/x86_64-linux/lib/libcudart.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../_deps/catch2-build/src/libCatch2Maind.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../_deps/spdlog-build/libspdlogd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "../_deps/catch2-build/src/libCatch2d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcudadevrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcudart_static",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "eigen_cuda_example_tests",
+	"nameOnDisk" : "eigen_cuda_example_tests",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/utils.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

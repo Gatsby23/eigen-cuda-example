@@ -1,0 +1,5 @@
+add_test( [==[Test Point-Point Distances]==] /home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/tests/eigen_cuda_example_tests [==[Test Point-Point Distances]==]  )
+set_tests_properties( [==[Test Point-Point Distances]==] PROPERTIES WORKING_DIRECTORY /home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/tests)
+add_test( [==[Test Line-Line Distances]==] /home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/tests/eigen_cuda_example_tests [==[Test Line-Line Distances]==]  )
+set_tests_properties( [==[Test Line-Line Distances]==] PROPERTIES WORKING_DIRECTORY /home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/tests)
+set( eigen_cuda_example_tests_TESTS [==[Test Point-Point Distances]==] [==[Test Line-Line Distances]==])

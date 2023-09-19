@@ -1,0 +1,5 @@
+if(EXISTS "/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/tests/eigen_cuda_example_tests_tests-b12d07c.cmake")
+  include("/home/robotics/Lab_Study/CUDA_Study/eigen-cuda-example/cmake-build-debug/tests/eigen_cuda_example_tests_tests-b12d07c.cmake")
+else()
+  add_test(eigen_cuda_example_tests_NOT_BUILT-b12d07c eigen_cuda_example_tests_NOT_BUILT-b12d07c)
+endif()
